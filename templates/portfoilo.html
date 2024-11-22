@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+  {%include 'header.html'%}
+  <br>
+  <br>
+<section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+            </div>
+            {% for projects in project:%}
+            <div class="container border border-primary  p-4">
+                <div class="row justify-content-md-center">
+                    <div class="col col-xl-2">
+                        <h6>{{projects.id}}</h6>
+                    </div>
+                    <div class="col col-xl-2">
+                        <h5>{{projects.title}}</h5>
+                    </div>
+                    <div class="col col-xl-2">
+                        <p>{{projects.body}}</p>
+                    </div>
+                    <div class="col col-xl-2" ><a href="{{projects.github}}">
+                        Link
+                    </a></div>
+
+
+                </div>
+            </div>
+            <br>
+            {%endfor%}
+</section>
+ {%include 'footer.html'%}
+
+</body>
+</html>
