@@ -13,3 +13,7 @@
 - you want to **delete project** then **("127.0.0.1:5000/delete")** this **/delete** html page open and you add the deatil.
 
 ![alt text](https://github.com/vivekuw/Basic_Portfolio_website_using_Flask/blob/main/photo/delete.PNG)
+
+- **Skill page is ("127.0.0.1:5000/skill")** is your skill is dsiplay
+![alt text](https://github.com/vivekuw/Basic_Portfolio_website_using_Flask/blob/main/photo/skill.PNG)
+
