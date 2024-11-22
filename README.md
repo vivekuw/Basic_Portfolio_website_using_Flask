@@ -14,6 +14,11 @@
 
 ![alt text](https://github.com/vivekuw/Basic_Portfolio_website_using_Flask/blob/main/photo/delete.PNG)
 
-- **Skill page is ("127.0.0.1:5000/skill")** is your skill is dsiplay
+- **Skill page is ("127.0.0.1:5000/skill")** is your skill is dsiplay ,for change this contain will be in the code.
 ![alt text](https://github.com/vivekuw/Basic_Portfolio_website_using_Flask/blob/main/photo/skill.PNG)
 
+- **About page is ("127.0.0.1:5000/about")** is your about is dsiplay, for change this contain will be in the code.
+![alt text](https://github.com/vivekuw/Basic_Portfolio_website_using_Flask/blob/main/photo/about.PNG)
+
+- **Contact page is ("127.0.0.1:5000/contact")** is your contact is dsiplay, for change this contain will be in the code.
+![alt text](https://github.com/vivekuw/Basic_Portfolio_website_using_Flask/blob/main/photo/contact.PNG)
