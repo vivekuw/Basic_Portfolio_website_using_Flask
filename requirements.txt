@@ -5,3 +5,4 @@ PySocks~=1.7.1
 pillow~=10.4.0
 redis~=5.1.0
 Flask~=2.3.2
+jsonlib==1.6.1
